@@ -6,7 +6,7 @@ import requests
 from datetime import datetime, timedelta, timezone
 
 token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIwYTE3MTU2NjlmZWY0OGQzOWUxYjIyNmVmMjNkMGI2NyIsImlhdCI6MTcwNjEwMDA0MiwiZXhwIjoyMDIxNDYwMDQyfQ.3jwSzIexORBlYMn84gua9MEFLLgqeZeVzxVdbCsLHCc"
-base_url = "homeassistant.local"
+base_url = "172.30.232.3"
 url = "http://" + base_url + ":8123/api/services/input_number/set_value"
 plant_id = "sensor.espwg2_moisture"
 tracker_next_watering = "input_number.helper_prediction_next_watering"
